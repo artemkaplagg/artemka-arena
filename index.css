@@ -1,0 +1,9 @@
+@keyframes case-roll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-4000px); }
+}
+.animate-case-roll {
+  animation: case-roll 5s cubic-bezier(0.12, 0, 0.1, 1) forwards;
+}
+.no-scrollbar::-webkit-scrollbar { display: none; }
+body { margin: 0; padding: 0; background: #f8faff; font-family: 'Inter', sans-serif; overflow-x: hidden; }
